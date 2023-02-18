@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Inter:wght@400;500;600&family=Montserrat:wght@400;600;700;900&family=Poppins:wght@500&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+
+<body>
+
+    <header class="page-header">
+
+        <nav class="container header-navigation">
+
+            <a href="./index.html" class="header-logo link">skybox</a>
+
+            <ul class="header-navigation-list list">
+
+                <li class="header-navigation-item">
+                    <a href="./index.html" class="header-navigation-link link">Home</a>
+                </li>
+                <li class="header-navigation-item">
+                    <a href="" class="header-navigation-link link">Pricing</a>
+                </li>
+                <li class="header-navigation-item">
+                    <a href="" class="header-navigation-link link">Contact</a>
+                </li>
+
+            </ul>
+
+
+            <ul class="auth-navigation list">
+                <li>
+                    <div class="wrapper">
+                        <button type="button" class="header-login button" href="#">log in</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="wrapper"><button type="button" class="header-sing-up button">sign up</button></div>
+                </li>
+                <svg style="visibility: hidden; position: absolute;" width="0" height="0"
+                    xmlns="http://www.w3.org/2000/svg" version="1.1">
+                    <defs>
+                        <filter id="goo">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                                result="goo" />
+                            <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+                        </filter>
+                    </defs>
+                </svg>
+            </ul>
+        </nav>
+
+
+        <!-- Filter: https://css-tricks.com/gooey-effect/ -->
+
+
+    </header>
+
+    <main>
+
+        <section class="hero">
+
+
+            <div class=" container hero-container">
+
+                <h1 class="hero-title">Personal and Business</h1>
+                <p class="hero-after-title">Online storage</p>
+
+                <h2 class="hero-second-title">STORE AND MANAGE ALL YOUR Files!</h2>
+                <p class="hero-description">Upload multiple files at once and keep them forever on this site. If you're
+                    using FireFox or Chrome, you can simply drag & drop your files to begin uploading</p>
+                <button type="button" class="hero-btn">Try SkyBox Now</button>
+
+            </div>
+
+
+
+    </main>
+
+</body>
+
+</html>
